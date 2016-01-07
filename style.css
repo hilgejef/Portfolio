@@ -22,6 +22,7 @@ body {
   background-size: cover;
 
   background: #627d4d; /* Old browsers */
+  background: -webkit-gradient(linear, left top, left bottom, from(#627d4d), to(#1f3b08)) center fixed;
   background: -moz-linear-gradient(top,  #627d4d 0%, #1f3b08 100%) center fixed; /* FF3.6-15 */
   background: -webkit-linear-gradient(top,  #627d4d 0%,#1f3b08 100%) center fixed; /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(to bottom,  #627d4d 0%,#1f3b08 100%) center fixed; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
@@ -35,8 +36,8 @@ body {
 h3 {
 	font-family:  "Montserrat", "Helvetica Neue", "Arial", sans-serif;
   font-size: 26px;
- letter-spacing: 10px;
- line-height: 2em;
+  letter-spacing: 10px;
+  line-height: 2em;
  
  /*
   line-height: 1em;
@@ -50,7 +51,7 @@ h3 {
 
 a {
   font-family:  "Montserrat", "Helvetica Neue", "Arial", sans-serif;
-  font-size: 13px;
+  font-size: 15px;
   
   font-style: normal;
 
