@@ -1,8 +1,15 @@
+html {
+  height: 100%;
+  min-height: 100%;
+}
+
 body {
    /* font-family:  "Montserrat", "Helvetica Neue", "Arial", sans-serif;*/
+
+  min-height: 100%;
 	
   font-family: "Merriweather", "Garamond", "Times", serif;
-    font-style: italic;
+  font-style: italic;
   color: #ffedeb;
   opacity: 0.75;
   text-rendering: optimizeLegibility;
