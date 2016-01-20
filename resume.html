@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <title>Jeffrey Hilger</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <style>
+      @import url('//fonts.googleapis.com/css?family=Raleway');
+      @import url('//fonts.googleapis.com/css?family=Lato');
+      
+      html, body {
+        min-width: 360px;
+      }
+      
+      html, body, main, section, header, ul, p, h1, h2, h3 {
+        font-size: 19px;
+        margin: 0; padding: 0;
+        display: block;
+      }
+      
+      a {
+        color: #0064BD;
+        text-decoration: none;
+      }
+      
+      a:visited {
+        color: #7B0796;
+      }
+      
+      a:hover {
+        text-decoration: underline;
+      }
+      
+      h1 {
+        font-family: 'Raleway';
+      }
+      
+      p, h2, h3, ul {
+        font-family: 'Lato';
+      }
+      
+      h2 {
+        font-size: 1.1em;
+        text-transform: uppercase;
+      }
+      
+      h3 {
+        font-weight: normal;
+        margin-top: 0.5em;
+        font-size: 1.05em;
+      }
+      
+      hr {
+        border: none;
+        border-top: 1px solid #B3B3B3;
+      }
+      
+      main {
+        padding: 15px;
+        max-width: 720px;
+        margin: 0 auto;
+      }
+      
+      section {
+        margin-top: 1em;
+        margin-bottom: 2em;
+      }
+      
+      .summary {
+        max-width: 540px;
+        /*word-spacing: 0.2em;*/
+      }
+      
+      li {
+        margin-left: 2em;
+      }
+      
+      p, li {
+        /*text-align: justify;*/
+        /*letter-spacing: 1px;*/
+        /*word-spacing: 0.3em;*/
+      }
+      
+      .tenure {
+        float: right;
+        font-size: 19px;
+      }
+      
+      thead {
+        display: none;
+      }
+      
+      main > header {
+        width: 100%;
+        float: left;
+        margin-bottom: 2em;
+        position: relative;
+      }
+      
+      
+      main > header > h1 {
+        float: left;
+        font-size: 1.75em;
+        text-transform: uppercase;
+        line-height: 1;
+        margin-top: 1.25em;
+      }
+      
+      table {
+        border-spacing: 0;
+      }
+      
+      #contact {
+        float: right;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        font-size: 0.95em;
+        /*font-weight: bold;*/
+      }
+      
+      #contact > div {
+        display: inline-block;
+        margin-left: 5px;
+      }
+      
+      .email {
+        font-weight: bold;
+      }
+      
+      .website {
+        font-weight: bold;
+      }
+      
+      .phone {
+        font-weight: bold;
+      }
+      
+      .project {
+        margin-bottom: 1em;
+      }
+      
+      .keywords {
+        padding-left: 0.5em;
+      }
+      
+      h2 > span.fa {
+        text-align: left;
+        margin-right: 3px;
+      }
+      
+      /* RESPONSIVE */
+      
+      @media screen and (max-width: 720px) {
+      
+        #contact > div {
+          margin-left: 0;
+        }
+      
+        #contact {
+          margin-top: 0.25em;
+          /*float: left;*/
+          /*position: static;*/
+          bottom: -1.25em;
+          left: 0;
+        }
+      
+      }
+    </style>
+  </head>
+  
+  <body>
+    <main>
+      <header>
+        <h1>Jeffrey Hilger</h1>
+        <div id="contact">
+          <div class="email"><a href="mailto:jeff@hilger.me">jeff@hilger.me</a>
+          </div>&nbsp;&nbsp;—
+          <div class="phone">1-909-815-4255</div>&nbsp;&nbsp;—
+          <div class="website"><a href="http://hilger.me">hilger.me</a>
+          </div>
+        </div>
+      </header>
+      <section id="education">
+        <header>
+          <h2>
+            <!-- <span class="fa fa-mortar-board"></span> -->Education</h2>
+          <hr>
+        </header>
+        <h3>
+          <b>Oregon State University</b>
+          <span class="tenure">2014 — 2015</span>
+        </h3>
+        <p>Computer Science — 3.67</p>
+        <h3>
+          <b>University of California, Riverside</b>
+          <span class="tenure">2007 — 2012</span>
+        </h3>
+        <p>Political Science</p>
+      </section>
+      <section id="skills">
+        <header>
+          <h2>
+            <!-- <span class="fa fa-code"></span> -->Skills</h2>
+          <hr>
+        </header>
+        <table>
+          <thead>
+            <tr>
+              <th>Skill</th>
+              <th>Keywords</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style="width: 25%;">Scripting/Web:</td>
+              <td class="keywords">
+                <b>Python,</b>
+                <b>PHP,</b>
+                <b>Javascript,</b>
+                <b>HTML,</b>
+                <b>CSS</b>
+              </td>
+            </tr>
+            <tr>
+              <td style="width: 25%;">Programming:</td>
+              <td class="keywords">
+                <b>C,</b>
+                <b>Java</b>
+              </td>
+            </tr>
+            <tr>
+              <td style="width: 25%;">Database:</td>
+              <td class="keywords">
+                <b>MySQL,</b>
+                <b>PostgreSQL</b>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section id="projects">
+        <header>
+          <h2>
+            <!-- <span class="fa fa-star"></span> -->Projects</h2>
+          <hr>
+        </header>
+        <div class="project">
+          <h3>
+            <b> <a href="github.com/hilgejef/mountain">Mountain</a>
+            </b>— Developer</h3>
+          <b>Python, Lex/Yacc</b>
+          <div class="summary">
+            <p>Mountain is a transpiler that parses text files formatted in the Fountain screenwriting
+              syntax and converts them into valid, stylized HTML.</p>
+          </div>
+        </div>
+        <div class="project">
+          <h3>
+            <b> <a href="github.com/hilgejef/dbgui">DB Explorer</a>
+            </b>— Contributor</h3>
+          <b>Python, MySQL, PostgreSQL</b>
+          <div class="summary">
+            <p>DB Explorer is a command-line application that provides a streamlined graphical
+              interface for querying both MySQL and PostgreSQL databases.</p>
+          </div>
+        </div>
+        <div class="project">
+          <h3>
+            <b> <a href="github.com/hilgejef/imgsavr">ImgSavr</a>
+            </b>— Developer</h3>
+          <b>PHP, MySQL, HTML, CSS</b>
+          <div class="summary">
+            <p>ImgSavr is an image sharing/saving board implemented using the LAMP stack. Users
+              can login/logout, upload images to the server, and save images to their accounts.</p>
+          </div>
+        </div>
+      </section>
+      <section id="employment">
+        <header>
+          <h2>
+            <!-- <span class="fa fa-bar-chart"></span>  -->Employment</h2>
+          <hr>
+        </header>
+        <h3>
+          <b> <a href="http://boe.ca.gov">CA Board of Equalization</a>
+
+          </b>— Tax Technician</b>
+          <span class="tenure">2013 — 2014</span>
+        </h3>
+        <div class="summary">
+          <p>Interfaced with constituents on behalf of the state, performed auditing duties,
+            and advised business owners on sales and use tax liabilities.</p>
+        </div>
+      </section>
+    </main>
+  </body>
+
+</html>
