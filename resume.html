@@ -4,17 +4,18 @@
   <head>
     <meta charset="utf-8">
     <title>Jeffrey Hilger</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css"> -->
     <style>
       @import url('//fonts.googleapis.com/css?family=Raleway');
       @import url('//fonts.googleapis.com/css?family=Lato');
       
       html, body {
+        font-family: 'Lato';
         min-width: 360px;
+        font-size: 19px;
       }
       
       html, body, main, section, header, ul, p, h1, h2, h3 {
-        font-size: 19px;
         margin: 0; padding: 0;
         display: block;
       }
@@ -35,10 +36,10 @@
       h1 {
         font-family: 'Raleway';
       }
-      
-      p, h2, h3, ul {
+      /*
+      p, h2, h3, ul, #contact {
         font-family: 'Lato';
-      }
+      }*/
       
       h2 {
         font-size: 1.1em;
@@ -118,6 +119,7 @@
         bottom: 0;
         font-size: 0.95em;
         /*font-weight: bold;*/
+        /*margin-bottom: 1.25em;*/
       }
       
       #contact > div {
@@ -154,12 +156,16 @@
       
       @media screen and (max-width: 720px) {
       
+        main > header > h1 {
+          margin-bottom: 0.85em;
+        }
+      
         #contact > div {
           margin-left: 0;
         }
       
         #contact {
-          margin-top: 0.25em;
+          margin-bottom: 1.5em;
           /*float: left;*/
           /*position: static;*/
           bottom: -1.25em;
