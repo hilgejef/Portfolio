@@ -1,0 +1,114 @@
+<html>
+<head>
+    <title>Orchid</title>
+    <link rel="stylesheet" href="orchid.css">
+</head>
+<body>
+  <div id="grid">
+      <div class="row">
+        <div class="small-9 large-6 small-centered columns" id="header">
+          <h1>Orchid, a screenwriting language</h1>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="small-9 large-6 small-centered columns" id="description">
+          <em><p>Orchid is a straightforward, no frills, and hyper-explicit screenwriting syntax. It uses syntactic identifiers, beginning at the start of each line, to determine what type of screenwriting element each line belongs to.</p></em>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="small-9 large-6 small-centered columns" id="example_outer">
+          <div id="example_inner">
+            <p class="script" style="color:#C462EA;">@ INT. WAREHOUSE -- NIGHT</p>
+
+            <p class="script" style="color:#F8F8F0;" id="action">Two men in full combat gear, assault rifles at the ready. <strong> *STARING*</strong> in the dim light at a doorway, expectantly.</p>
+
+            <p class="script" style="color:#A6E22E;">&amp; JOHN JAMESON</p>
+            <p class="script" style="color:#66D9EF;">( (nervous)</p>
+            <p class="script" style="color:#FD971F;">$ Any contact from the others yet? What's going on?</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="small-9 large-6 small-centered columns" id="package">
+            <p>Orchid comes with a <a href="https://github.com/hilgejef/orchid/raw/master/Orchid.sublime-package">Sublime Text package</a>, complete with a beautiful color theme and text-editing commands for an enjoyable screenwriting experience.</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="small-9 large-6 small-centered columns" id="convert">
+            <p>Additionally, Orchid can be converted into Fountain or HTML formats easily with the included Python utilities. Go to the <a href="https://github.com/hilgejef/orchid">Orchid Github</a> to download.</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="small-9 large-6 small-centered columns" id="syntax">
+          <div class="item">
+            <h2>Overview</h2>
+            <p>For most script elements, a starting syntactic identifier is required on each line. Type the identifier, any amount of whitespace, and then your text.
+          </div>
+
+          <div class="item">
+            <h2>@ Heading</h2>
+            <p>The heading element of a screenplay, generally a "slugline", in the form of (INT./EXT. LOCATION -- TIME OF DAY).</p>
+          </div>
+
+          <div class="item">
+            <h2>+ Action</h2>
+            <p>The action element of a screenplay contains scene descriptions and character actions. NOTE: Any element without a starting syntactic identifier that contains text will be interpreted as ACTION.</p>
+          </div>
+
+          <div class="item">
+            <h2>&amp; Character</h2>
+            <p>The character element of a screenplay contains the character name of a character that is going to speak dialogue.</p>
+          </div>
+
+          <div class="item">
+            <h2>$ Dialogue</h2>
+            <p>The dialogue element of a screenplay contains character dialogue -- what the actors are meant to speak.</p>
+          </div>
+
+          <div class="item">
+            <h2>( Parenthetical</h2>
+            <p>The parenthetical element of a screenplay describes character states and character actions during dialogue.</p>
+          </div>
+
+          <div class="item">
+            <h2>~ Transition</h2>
+            <p>The transition element of a screenplay describes transitions from one scene to the next. For example, CUT TO: or FADE IN:.</p>
+          </div>
+
+          <div class="item">
+            <h2># Comments</h2>
+            <p>Comments are for the screenwriter to make notes as they work, and aren't intended to end up in the final screenplay.</p>
+          </div>
+
+          <div class="item">
+            <h2>% Title Page</h2>
+            <p>Title Pages contain information about the screenplay and screenwriter, such as the title, author name, date of completion, draft number, and so on.</p>
+          </div>
+
+          <div class="item">
+            <h2>Line Break</h2>
+            <p>The LINE BREAK is any line that either contains no text or contains only whitespace characters. Use it to add whitespace to the screenplay.</p>
+          </div>
+
+          <div class="item">
+            <h2>Markup</h2>
+            <p>Bold text by surrounding it with asterisks, <b>*like this.*</b>
+               Italicize text by surrounding it with forward slashes, <em>/like this./</em>
+               Underline text by surrounding it with underscores, <span class="underline">_like this._</span></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="small-9 large-6 small-centered columns" id="final">
+          <p>If you'd like to see an example of the syntax being used in a script, <a href="https://github.com/hilgejef/orchid/blob/master/testscript.orchid">here's a short example.</a></p>
+        </div>
+      </div>
+    </div>
+</body>
+</html>

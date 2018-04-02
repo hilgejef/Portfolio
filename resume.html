@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-  
+
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,31 +9,31 @@
     <style>
       @import url('//fonts.googleapis.com/css?family=Raleway');
       @import url('//fonts.googleapis.com/css?family=Lato');
-      
+
       html, body {
         font-family: 'Lato';
         /*min-width: 360px;*/
         font-size: 19px;
       }
-      
+
       html, body, main, section, header, ul, p, h1, h2, h3 {
         margin: 0; padding: 0;
         display: block;
       }
-      
+
       a {
         color: #0064BD;
         text-decoration: none;
       }
-      
+
       a:visited {
         color: #7B0796;
       }
-      
+
       a:hover {
         text-decoration: underline;
       }
-      
+
       h1 {
         font-family: 'Raleway';
       }
@@ -41,62 +41,61 @@
       p, h2, h3, ul, #contact {
         font-family: 'Lato';
       }*/
-      
+
       h2 {
         font-size: 1.1em;
         text-transform: uppercase;
       }
-      
+
       h3 {
         font-weight: normal;
         margin-top: 0.5em;
         font-size: 1.05em;
       }
-      
+
       hr {
         border: none;
         border-top: 1px solid #B3B3B3;
       }
-      
+
       main {
         padding: 15px;
         max-width: 720px;
         margin: 0 auto;
       }
-      
+
       section {
         margin-top: 1em;
         margin-bottom: 2em;
       }
-      
+
       .summary {
         max-width: 560px;
         /*word-spacing: 0.2em;*/
       }
-      
+
       li {
         margin-left: 2em;
       }
-      
+
       p, li {
         /*text-align: justify;*/
         /*letter-spacing: 1px;*/
         /*word-spacing: 0.3em;*/
       }
-      
+
       .tenure {
-        float: right;
       }
-      
+
       thead {
         display: none;
       }
-      
+
       main > header {
         margin-bottom: 2em;
       }
-      
-      
+
+
       main > header > h1 {
         font-size: 1.75em;
         text-transform: uppercase;
@@ -104,70 +103,70 @@
         margin-top: 1em;
         margin-bottom: 0.25em;
       }
-      
+
       table {
         border-spacing: 0;
       }
-      
+
       #contact {
         right: 0;
         bottom: 0;
         font-size: 0.95em;
       }
-      
+
       #contact > div {
         display: inline-block;
       }
-      
+
       .email {
         font-weight: bold;
       }
-      
+
       .website {
         font-weight: bold;
       }
-      
+
       .phone {
         font-weight: bold;
       }
-      
+
       .project {
         margin-bottom: 1em;
       }
-      
+
       .job {
         margin-bottom: 1em;
       }
-      
+
       .keywords {
-        padding-left: 0.5em;
+        padding-left: 0em;
       }
-      
+
       h2 > span.fa {
         text-align: left;
         margin-right: 3px;
       }
-      
+
       /* RESPONSIVE */
-      
+
       @media screen and (max-width: 720px) {
-      
+
         .tenure {
           display: none;
         }
-      
+
         html, body {
           font-size: 14px;
         }
-      
+
         main > header > h1 {
           margin-bottom: 0.85em;
         }
-      
+
         #contact > div {
           margin-left: 0;
         }
-      
+
         #contact {
           margin-bottom: 1.5em;
           /*float: left;*/
@@ -175,11 +174,11 @@
           bottom: -1.25em;
           left: 0;
         }
-      
+
       }
     </style>
   </head>
-  
+
   <body>
     <main>
       <header>
@@ -192,27 +191,48 @@
           </div>
         </div>
       </header>
-      <section id="education">
+      <section id="employment">
         <header>
-          <h2>
-            <!-- <span class="fa fa-mortar-board"></span> -->Education</h2>
+          <h2>Employment</h2>
           <hr>
         </header>
-        <h3>
-          <b>Oregon State University</b>
-          <span class="tenure">2014 — 2015</span>
-        </h3>
-        <p>B.S. Computer Science — 3.67</p>
-        <h3>
-          <b>University of California, Riverside</b>
-          <span class="tenure">2009 — 2012</span>
-        </h3>
-        <p>B.A. Political Science</p>
+          <div class="job">
+            <h3>
+              <b> <a href="https://www.launchmobility.com">Launch Mobility</a>
+              </b>— Backend Engineer</b>
+            </h3>
+            <div class="summary">
+              <p>Tenure: Apr 2017 — Sep 2017</p>
+              <p>Engineered (along with other team members) MVP of ridesharing application for funding demo, including payment and reservation systems. Developed internal API endpoints and integration with external APIs. Written in Python/Flask.</p>
+            </div>
+          </div>
+          <div class="job">
+            <h3>
+              <b> <a href="">Evercar</a>
+              </b>— Backend Engineer</b>
+            </h3>
+            <div class="summary">
+              <p>Tenure: Jul 2016 — Oct 2016</p>
+              <p>Backend developer on a Python/Django/MySQL stack. Integrated with external REST APIs, developed API endpoints for Evercar, wrote unit tests, automated various tasks for operations, created and applied migrations, helped ensure continuous up-time of Evercar services.</p>
+            </div>
+          </div>
+        <div class="job">
+          <h3>
+            <b> <a href="http://evilgeniuses.gg">Evil Geniuses, LLC</a>
+
+            </b>— Data Analyst</b>
+          </h3>
+          <div class="summary">
+            <p>Tenure: Jul 2014 — Aug 2014</p>
+            <p>Developed an internal data tracking and statistical analysis and display tool, implemented
+              with Python and the d3.js Javascript library.</p>
+          </div>
+        </div>
       </section>
       <section id="skills">
         <header>
           <h2>
-            <!-- <span class="fa fa-code"></span> -->Skills</h2>
+            Skills</h2>
           <hr>
         </header>
         <table>
@@ -224,95 +244,71 @@
           </thead>
           <tbody>
             <tr>
-              <td style="width: 25%;">Scripting/Web:</td>
-              <td class="keywords">
-                <b>Python,</b>
-                <b>PHP,</b>
-                <b>Javascript,</b>
-                <b>HTML,</b>
-                <b>CSS</b>
-              </td>
-            </tr>
-            <tr>
               <td style="width: 25%;">Programming:</td>
               <td class="keywords">
+                Python, Javascript, Java, C, C++, PHP, SQL, HTML, CSS
+<!--                 <b>Python,</b>
+                <b>Javascript,</b>
+                <b>Java,</b>
                 <b>C,</b>
-                <b>Java</b>
+                <b>C++,</b>
+                <b>PHP,</b>
+                <b>SQL,</b>
+                <b>HTML,</b>
+                <b>CSS</b> -->
               </td>
             </tr>
             <tr>
-              <td style="width: 25%;">Database:</td>
+              <td style="width: 25%;">Technologies:</td>
               <td class="keywords">
-                <b>MySQL,</b>
-                <b>PostgreSQL</b>
+                MySQL, PostgreSQL, Linux, Git, Docker
+<!--                 <b>MySQL,</b>
+                <b>PostgreSQL,</b>
+                <b>Linux,</b>
+                <b>Git,</b>
+                <b>Docker</b> -->
               </td>
             </tr>
           </tbody>
         </table>
       </section>
-      <section id="employment">
+      <section id="education">
         <header>
           <h2>
-            <!-- <span class="fa fa-bar-chart"></span>  -->Employment</h2>
+            Education</h2>
           <hr>
         </header>
-        <div class="job">
-          <h3>
-            <b> <a href="http://evilgeniuses.gg">Evil Geniuses, LLC</a>
-
-            </b>— Contractor</b>
-            <span class="tenure">2014 — 2014</span>
-          </h3>
-          <div class="summary">
-            <p>Developed an internal data tracking and statistical analysis and display tool, implemented
-              with Python and the d3.js Javascript library.</p>
-          </div>
-        </div>
+        <h3>
+          <b>Oregon State University</b>
+        </h3>
+        <p>Attended: 2014 — 2015</p>
+        <p>B.S. Computer Science — 3.67</p>
+        <h3>
+          <b>University of California, Riverside</b>
+        </h3>
+        <p>Attended: 2009 — 2012</p>
+        <p>B.A. Political Science</p>
       </section>
       <section id="projects">
         <header>
-          <h2>
-            <!-- <span class="fa fa-star"></span> -->Projects</h2>
+          <h2>Projects</h2>
           <hr>
         </header>
         <div class="project">
           <h3>
-            <b> <a href="github.com/hilgejef/stock-sms">Stock-SMS</a>
+            <b> <a href="github.com/hilgejef/orchid">Orchid</a>
             </b>— Developer</h3>
-          <b>Python/Flask, MySQL</b>
           <div class="summary">
-            <p>Stock-SMS is a web application that allows users to send SMS commands to a predesignated
-              phone number and receive realtime stock ticker information.</p>
-          </div>
-        </div>
-        <div class="project">
-          <h3>
-            <b> <a href="github.com/hilgejef/imgsavr">ImgSavr</a>
-            </b>— Developer</h3>
-          <b>PHP, MySQL, Javascript, HTML, CSS</b>
-          <div class="summary">
-            <p>ImgSavr is an image sharing and saving board (similar to Pinterest) implemented
-              using the Linux/Apache/MySQL/PHP stack.</p>
+            <p>Orchid is a minimalist, hyper-explicit screenwriting markup language that allows screenwriters to use text editors, rather than screenwriting software, to write screenplays. It includes a suite of tools, including a SublimeText editor scheme and utilities to convert to other languages.</p>
           </div>
         </div>
         <div class="project">
           <h3>
             <b> <a href="github.com/hilgejef/mountain">Mountain</a>
             </b>— Developer</h3>
-          <b>Python</b>
           <div class="summary">
             <p>Mountain is a transpiler that parses text files formatted in the Fountain markup
               syntax and converts them into valid, stylized HTML.</p>
-          </div>
-        </div>
-        <div class="project">
-          <h3>
-            <b> <a href="github.com/hilgejef/dbgui">DB Explorer</a>
-            </b>— Contributor</h3>
-          <b>Python, MySQL, PostgreSQL</b>
-          <div class="summary">
-            <p>DB Explorer is a command-line application that provides a streamlined graphical
-              interface for querying both MySQL and PostgreSQL databases.</p>
           </div>
         </div>
       </section>
